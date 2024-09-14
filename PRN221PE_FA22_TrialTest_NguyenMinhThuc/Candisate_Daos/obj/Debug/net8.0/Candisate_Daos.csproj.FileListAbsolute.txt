@@ -1,0 +1,15 @@
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\bin\Debug\net8.0\Candisate_Daos.deps.json
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\bin\Debug\net8.0\Candisate_Daos.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\bin\Debug\net8.0\Candisate_Daos.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\bin\Debug\net8.0\Candidate_BusinessObjects.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\bin\Debug\net8.0\Candidate_BusinessObjects.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.csproj.AssemblyReference.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.AssemblyInfoInputs.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.AssemblyInfo.cs
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.csproj.CoreCompileInputs.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisat.EB3022A3.Up2Date
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\refint\Candisate_Daos.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\Candisate_Daos.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candisate_Daos\obj\Debug\net8.0\ref\Candisate_Daos.dll

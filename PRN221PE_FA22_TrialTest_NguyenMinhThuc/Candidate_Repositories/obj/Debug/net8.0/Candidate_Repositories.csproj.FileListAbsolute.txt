@@ -1,0 +1,17 @@
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candidate_Repositories.deps.json
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candidate_Repositories.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candidate_Repositories.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.AssemblyInfoInputs.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.AssemblyInfo.cs
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.csproj.CoreCompileInputs.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\refint\Candidate_Repositories.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\ref\Candidate_Repositories.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candidate_BusinessObjects.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candisate_Daos.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candisate_Daos.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\bin\Debug\net8.0\Candidate_BusinessObjects.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidate_Repositories.csproj.AssemblyReference.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_Repositories\obj\Debug\net8.0\Candidat.0571E3D3.Up2Date

@@ -1,0 +1,14 @@
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\bin\Debug\net8.0\Candidate_BusinessObjects.deps.json
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\bin\Debug\net8.0\Candidate_BusinessObjects.runtimeconfig.json
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\bin\Debug\net8.0\Candidate_BusinessObjects.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\bin\Debug\net8.0\Candidate_BusinessObjects.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.AssemblyInfoInputs.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.AssemblyInfo.cs
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\refint\Candidate_BusinessObjects.dll
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.pdb
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\Candidate_BusinessObjects.genruntimeconfig.cache
+C:\Users\THY\source\repos\PRN221PE_FA22_TrialTest_NguyenMinhThuc\Candidate_BusinessObjects\obj\Debug\net8.0\ref\Candidate_BusinessObjects.dll
