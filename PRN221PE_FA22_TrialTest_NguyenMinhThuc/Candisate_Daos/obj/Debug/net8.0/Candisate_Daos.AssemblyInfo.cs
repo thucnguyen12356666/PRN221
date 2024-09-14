@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Candisate_Daos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30f549f1137cb98dc1300db27173ba2f9c7ec22e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Candisate_Daos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Candisate_Daos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

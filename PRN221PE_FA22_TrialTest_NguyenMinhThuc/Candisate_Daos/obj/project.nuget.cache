@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uJK/GjcVYcw=",
+  "dgSpecHash": "OkedtzOB3nY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\THY\\source\\repos\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\Candisate_Daos\\Candisate_Daos.csproj",
+  "projectFilePath": "D:\\PRN221\\PRN221\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\Candisate_Daos\\Candisate_Daos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\THY\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\THY\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

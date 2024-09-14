@@ -50,6 +50,11 @@ namespace CandidateManagement_NguyenMinhThuc
             }
 
             this.Hide();
+            JobPosting jobPostingWindow = new JobPosting();
+            jobPostingWindow.ShowDialog();
+
+            // Đóng cửa sổ đăng nhập sau khi cửa sổ JobPosting được đóng
+            this.Close();
         }
 
         private void btnExit_Click(object sender, RoutedEventArgs e)

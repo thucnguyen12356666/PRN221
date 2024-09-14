@@ -2960,11 +2960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\THY\\source\\repos\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc.csproj",
+      "projectUniqueName": "D:\\PRN221\\PRN221\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc.csproj",
       "projectName": "CandidateManagement_NguyenMinhThuc",
-      "projectPath": "C:\\Users\\THY\\source\\repos\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc.csproj",
+      "projectPath": "D:\\PRN221\\PRN221\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc.csproj",
       "packagesPath": "C:\\Users\\THY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\THY\\source\\repos\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc\\obj\\",
+      "outputPath": "D:\\PRN221\\PRN221\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\CandidateManagement_NguyenMinhThuc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2986,8 +2986,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\THY\\source\\repos\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\Candidate_Serivces\\Candidate_Serivces.csproj": {
-              "projectPath": "C:\\Users\\THY\\source\\repos\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\Candidate_Serivces\\Candidate_Serivces.csproj"
+            "D:\\PRN221\\PRN221\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\Candidate_Serivces\\Candidate_Serivces.csproj": {
+              "projectPath": "D:\\PRN221\\PRN221\\PRN221PE_FA22_TrialTest_NguyenMinhThuc\\Candidate_Serivces\\Candidate_Serivces.csproj"
             }
           }
         }

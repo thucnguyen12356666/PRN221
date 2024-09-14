@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateManagement_NguyenMinhThuc", "CandidateManagement_NguyenMinhThuc\CandidateManagement_NguyenMinhThuc.csproj", "{0F22C2C3-EB65-47D2-B38C-DFC1217A95AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateManagement_NguyenMinhThuc", "CandidateManagement_NguyenMinhThuc\CandidateManagement_NguyenMinhThuc.csproj", "{0F22C2C3-EB65-47D2-B38C-DFC1217A95AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate_BusinessObjects", "Candidate_BusinessObjects\Candidate_BusinessObjects.csproj", "{933A5D05-111F-40A5-8410-3DAB21E8F61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate_BusinessObjects", "Candidate_BusinessObjects\Candidate_BusinessObjects.csproj", "{933A5D05-111F-40A5-8410-3DAB21E8F61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate_Repositories", "Candidate_Repositories\Candidate_Repositories.csproj", "{2B6CF11B-B533-44DF-AA0B-EA2C553E493A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate_Repositories", "Candidate_Repositories\Candidate_Repositories.csproj", "{2B6CF11B-B533-44DF-AA0B-EA2C553E493A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate_Serivces", "Candidate_Serivces\Candidate_Serivces.csproj", "{D9A77287-7102-44C3-A0D0-78E41496C420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate_Serivces", "Candidate_Serivces\Candidate_Serivces.csproj", "{D9A77287-7102-44C3-A0D0-78E41496C420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candisate_Daos", "Candisate_Daos\Candisate_Daos.csproj", "{79D3E670-D905-4EB8-BCAE-BA4573B3C6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candisate_Daos", "Candisate_Daos\Candisate_Daos.csproj", "{79D3E670-D905-4EB8-BCAE-BA4573B3C6CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
