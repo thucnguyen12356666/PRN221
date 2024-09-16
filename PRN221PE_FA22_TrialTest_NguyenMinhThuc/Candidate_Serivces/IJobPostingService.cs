@@ -5,10 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Candidate_Serivces
+namespace Candidate_Services
 {
     public interface IJobPostingService
     {
-       
+        public bool AddJobPosting(JobPosting jobPosting);
+
+        public bool UpdateJobPosting(JobPosting jobPosting);
+
+        public JobPosting GetJobPosting(string postingId);
     }
 }

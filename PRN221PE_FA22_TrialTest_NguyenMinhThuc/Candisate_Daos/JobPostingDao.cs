@@ -41,6 +41,7 @@ namespace Candisate_Daos
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
             }
             return isSuccess;
         }

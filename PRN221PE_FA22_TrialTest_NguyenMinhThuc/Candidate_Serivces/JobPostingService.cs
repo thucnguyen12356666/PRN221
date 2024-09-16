@@ -6,30 +6,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Candidate_Serivces
+namespace Candidate_Services
 {
     public class JobPostingService : IJobPostingService
     {
-        private readonly IJobPostingRepository _jobPostingRepository;
+        private IJobPostingRepository jobPostingRepository = null;
 
-        public JobPostingService(IJobPostingRepository jobPostingRepository)
+        public JobPostingService()
         {
-            _jobPostingRepository = jobPostingRepository;
+            if (jobPostingRepository == null)
+            {
+                jobPostingRepository = new JobPostingRepository();
+            }
         }
 
-        public bool CreateJobPosting(JobPosting jobPosting)
+        public bool AddJobPosting(JobPosting jobPosting)
         {
-            return _jobPostingRepository.Create(jobPosting);
+            return jobPostingRepository.AddJobPosting(jobPosting);
         }
 
-        public List<JobPosting> GetAllJobPostings()
+        public bool UpdateJobPosting(JobPosting jobPosting)
         {
-            return _jobPostingRepository.GetAll();
+            return jobPostingRepository.UpdateJobPosting(jobPosting);
         }
 
-        public JobPosting GetJobPostingById(string id)
+        public JobPosting GetJobPosting(string postingId)
         {
-            return _jobPostingRepository.GetById(id);
+            return jobPostingRepository.GetJobPosting(postingId);
         }
     }
 }

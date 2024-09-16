@@ -1,5 +1,6 @@
 ﻿using Candidate_BusinessObjects.Entities;
 using Candidate_Serivces;
+using Candidate_Services;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System.Text;
 using System.Windows;
@@ -50,7 +51,7 @@ namespace CandidateManagement_NguyenMinhThuc
             }
 
             this.Hide();
-            JobPosting jobPostingWindow = new JobPosting();
+            JobPostingWindow jobPostingWindow = new JobPostingWindow();
             jobPostingWindow.ShowDialog();
 
             // Đóng cửa sổ đăng nhập sau khi cửa sổ JobPosting được đóng

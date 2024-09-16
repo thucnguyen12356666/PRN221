@@ -10,7 +10,7 @@ namespace Candidate_Repositories
 {
     public class JobPostingRepository : IJobPostingRepository
     {
-        public bool AddJobPosting(JobPosting jobPosting) => JobPostingDao.instance.AddJobPosting(jobPosting);
+        public bool AddJobPosting(JobPosting jobPosting) => JobPostingDao.Instance.AddJobPosting(jobPosting);
         
 
         public JobPosting GetJobPosting(string postingId) => JobPostingDao.Instance.GetJobPosting(postingId);

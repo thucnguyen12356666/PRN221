@@ -15,7 +15,7 @@ namespace Candidate_Repositories
         public bool UpdateJobPosting(JobPosting jobPosting);
 
 
-        private JobPosting GetJobPosting(string postingId);
+        public  JobPosting GetJobPosting(string postingId);
         
     }
 }
