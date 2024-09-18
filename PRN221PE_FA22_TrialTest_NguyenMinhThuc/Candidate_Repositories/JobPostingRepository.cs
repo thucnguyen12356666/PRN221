@@ -17,6 +17,11 @@ namespace Candidate_Repositories
         
 
         public bool UpdateJobPosting(JobPosting jobPosting) => JobPostingDao.Instance.UpdateJobPosting(jobPosting);
-        
+
+
+        public bool DeleteJobPosting(string postingId) =>
+            JobPostingDao.Instance.DeleteJobPosting(postingId);
+
+
     }
 }

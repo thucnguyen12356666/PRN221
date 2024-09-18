@@ -72,6 +72,32 @@ namespace Candisate_Daos
         {
             return context.JobPostings.SingleOrDefault(m => m.PostingId.Equals(postingId));
         }
+        public bool DeleteJobPosting(string postingId)
+        {
+            bool isSuccess = false;
+            try
+            {
+                // Lấy đối tượng JobPosting cần xóa dựa trên postingId
+                JobPosting jobPosting = GetJobPosting(postingId);
+
+                if (jobPosting != null)
+                {
+                    // Xóa đối tượng từ DbSet
+                    context.JobPostings.Remove(jobPosting);
+
+                    // Lưu thay đổi vào cơ sở dữ liệu
+                    context.SaveChanges();
+
+                    isSuccess = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return isSuccess;
+        }
+
 
     }
 }

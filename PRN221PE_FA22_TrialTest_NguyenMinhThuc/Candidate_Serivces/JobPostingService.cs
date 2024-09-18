@@ -34,5 +34,9 @@ namespace Candidate_Services
         {
             return jobPostingRepository.GetJobPosting(postingId);
         }
+        public bool DeleteJobPosting(string postingId)
+        {
+            return jobPostingRepository.DeleteJobPosting(postingId);
+        }
     }
 }
