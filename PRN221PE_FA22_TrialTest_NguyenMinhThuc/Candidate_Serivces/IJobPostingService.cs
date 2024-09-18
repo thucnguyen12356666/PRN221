@@ -14,5 +14,6 @@ namespace Candidate_Services
         public bool UpdateJobPosting(JobPosting jobPosting);
 
         public JobPosting GetJobPosting(string postingId);
+        public bool DeleteJobPosting(string postingId);
     }
 }

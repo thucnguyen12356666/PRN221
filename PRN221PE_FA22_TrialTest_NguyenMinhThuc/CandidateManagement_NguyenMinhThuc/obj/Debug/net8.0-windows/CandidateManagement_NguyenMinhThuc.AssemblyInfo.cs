@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CandidateManagement_NguyenMinhThuc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aef4891f85b7f1e4a6cd5a8b86a66e8d676d41c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46708b4e2397254a5e985b64fd2f9581ae374cba")]
 [assembly: System.Reflection.AssemblyProductAttribute("CandidateManagement_NguyenMinhThuc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CandidateManagement_NguyenMinhThuc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -40,6 +40,8 @@ namespace CandidateManagement_NguyenMinhThuc
 
             };
 
+
+
             bool isSuccess = jobPostingService.AddJobPosting(newJob);
 
             if (isSuccess)

@@ -43,7 +43,7 @@
                 <Button Content="Create" Width="75" Height="30" Margin="5" Background="#32CD32" Foreground="White" Click="Button_Click" />
                 <Button Content="Read" Width="75" Height="30" Margin="5" Background="#4682B4" Foreground="White" Click="Button_Click_1" />
                 <Button Content="Update" Width="75" Height="30" Margin="5" Background="#FFD700" Foreground="Black" Click="Button_Click_2" />
-                <Button Content="Delete" Width="75" Height="30" Margin="5" Background="#FF4500" Foreground="White" />
+                <Button Content="Delete" Width="75" Height="30" Margin="5" Background="#FF4500" Foreground="White" Click="Button_Click_3" />
             </StackPanel>
         </StackPanel>
     </Grid>
