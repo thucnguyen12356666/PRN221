@@ -1,5 +1,6 @@
 ﻿using Candidate_BusinessObjects.Entities;
 using Candidate_Repositories;
+using Candidate_Serivces;
 using Candidate_Services;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,7 @@ namespace CandidateManagement_NguyenMinhThuc
     public partial class JobPostingWindow : Window
     {
         private IJobPostingService jobPostingService;
+        
         public JobPostingWindow()
         {
             InitializeComponent();
@@ -36,7 +38,7 @@ namespace CandidateManagement_NguyenMinhThuc
                 PostingId = txtPostingID.Text,
                 JobPostingTitle = txtTitle.Text,
                 Description = txtDescription.Text,
-                PostedDate = dpPostDate.SelectedDate.HasValue ? dpPostDate.SelectedDate.Value : (DateTime?)null
+                PostedDate =  DateTime.Parse(dpPostDate.Text)  /*dpPostDate.SelectedDate.HasValue ? dpPostDate.SelectedDate.Value : (DateTime?)null*/
 
             };
 
@@ -46,6 +48,7 @@ namespace CandidateManagement_NguyenMinhThuc
 
             if (isSuccess)
             {
+                LoadJobPostings();
                 MessageBox.Show("Job posting added successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
@@ -61,31 +64,30 @@ namespace CandidateManagement_NguyenMinhThuc
 
             if (!string.IsNullOrEmpty(postingId))
             {
-                // Tạo đối tượng JobPostingRepository (để tương tác với cơ sở dữ liệu)
-                JobPostingRepository repository = new JobPostingRepository();
+                // Lấy tất cả các bài đăng từ dịch vụ hoặc cơ sở dữ liệu
+                var allJobPostings = jobPostingService.GetAllJob(); // Hoặc từ ItemsSource của DataGrid nếu đã có dữ liệu
 
-                // Lấy bài đăng từ cơ sở dữ liệu
-                JobPosting jobPosting = repository.GetJobPosting(postingId);
+                // Tìm bài đăng có PostingID tương ứng
+                var jobPosting = allJobPostings.FirstOrDefault(jp => jp.PostingId == postingId);
 
                 if (jobPosting != null)
                 {
-                    // Hiển thị thông tin bài đăng trên các điều khiển
-                    txtTitle.Text = jobPosting.JobPostingTitle;
-                    dpPostDate.SelectedDate = jobPosting.PostedDate;
-                    txtDescription.Text = jobPosting.Description;
+                    // Hiển thị bài đăng đó trong DataGrid
+                    dataGridJobPostings.ItemsSource = new List<JobPosting> { jobPosting };
                 }
                 else
                 {
                     // Nếu không tìm thấy bài đăng, hiển thị thông báo
                     MessageBox.Show("Job posting not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    dataGridJobPostings.ItemsSource = null; // Hoặc để trống DataGrid
                 }
             }
             else
             {
                 MessageBox.Show("Please enter a Posting ID.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
-
         }
+
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
@@ -182,5 +184,24 @@ namespace CandidateManagement_NguyenMinhThuc
                 MessageBox.Show("Please enter a Posting ID.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
+
+        private void dataGridJobPostings_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            this.dataGridJobPostings.ItemsSource = jobPostingService.GetAllJob();
+
+
+        }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Gọi hàm để nạp dữ liệu vào DataGrid
+            LoadJobPostings();
+        }
+
+        private void LoadJobPostings()
+        {
+            // Nạp dữ liệu vào DataGrid
+            this.dataGridJobPostings.ItemsSource = jobPostingService.GetAllJob();
+        }
+
     }
 }

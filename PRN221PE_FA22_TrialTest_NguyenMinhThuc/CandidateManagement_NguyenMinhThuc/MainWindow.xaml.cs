@@ -58,6 +58,7 @@ namespace CandidateManagement_NguyenMinhThuc
             this.Close();
         }
 
+
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
             MessageBoxResult answer = MessageBox.Show("Do you want to exit the app?", "Exit App!", MessageBoxButton.YesNo, MessageBoxImage.Question);

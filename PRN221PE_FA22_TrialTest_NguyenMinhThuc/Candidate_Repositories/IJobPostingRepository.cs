@@ -19,6 +19,7 @@ namespace Candidate_Repositories
 
         public bool DeleteJobPosting(string postingId);
 
+        public List<JobPosting> GetAllJob();
 
     }
 }

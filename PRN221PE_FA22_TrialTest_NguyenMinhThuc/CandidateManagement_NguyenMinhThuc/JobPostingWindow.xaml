@@ -5,15 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CandidateManagement_NguyenMinhThuc"
         mc:Ignorable="d"
-        Title="Job Posting Screen" Height="450" Width="800"
-        Background="#f0f8ff">
+        Title="Job Posting Screen" Height="600" Width="800"
+        Background="#f0f8ff"
+        Loaded="Window_Loaded">
+    
     <Grid Margin="10">
         <!-- Tiêu đề chính -->
         <TextBlock Text="JOB POSTING SCREEN" FontSize="24" FontWeight="Bold" 
                    HorizontalAlignment="Center" Foreground="#4682B4" />
 
         <!-- Thông tin form -->
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="500">
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Width="500" Margin="20">
             <!-- PostingID -->
             <StackPanel Orientation="Horizontal" Margin="10">
                 <TextBlock Text="Posting ID: " Width="100" VerticalAlignment="Center" />
@@ -46,5 +48,13 @@
                 <Button Content="Delete" Width="75" Height="30" Margin="5" Background="#FF4500" Foreground="White" Click="Button_Click_3" />
             </StackPanel>
         </StackPanel>
+
+        <!-- DataGrid để hiển thị danh sách Job Postings -->
+        <DataGrid Name="dataGridJobPostings" VerticalAlignment="Bottom" Margin="10"
+          Height="200" HorizontalAlignment="Stretch" 
+          SelectionChanged="dataGridJobPostings_SelectionChanged"
+          AutoGenerateColumns="True">
+        </DataGrid>
+
     </Grid>
 </Window>

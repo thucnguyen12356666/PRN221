@@ -22,6 +22,6 @@ namespace Candidate_Repositories
         public bool DeleteJobPosting(string postingId) =>
             JobPostingDao.Instance.DeleteJobPosting(postingId);
 
-
+        public List<JobPosting> GetAllJob() => JobPostingDao.Instance.GetAllJob();
     }
 }

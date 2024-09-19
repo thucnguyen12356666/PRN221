@@ -97,7 +97,10 @@ namespace Candisate_Daos
             }
             return isSuccess;
         }
-
+        public List<JobPosting> GetAllJob()
+        {
+               return context.JobPostings.ToList();
+        }
 
     }
 }
